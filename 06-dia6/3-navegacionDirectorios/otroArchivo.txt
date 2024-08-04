@@ -1,0 +1,3 @@
+este es otro Archivo 
+sobre el ejercicio 3 
+de manipualcion de archivos ne python
