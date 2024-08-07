@@ -4,7 +4,7 @@ ruta= os.getcwd()
 
 print(ruta)
 
-#nos permite establecer una ruta distinta
+#chdir nos permite establecer una ruta distinta
 #de esta manera se deve trabajar con doble barra inveritda
 ruta = os.chdir('C:\\Users\\byron\\Documents\\Curso Python\\06-dia6\\3-navegacionDirectorios')
 

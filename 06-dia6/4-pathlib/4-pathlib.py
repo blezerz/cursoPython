@@ -12,7 +12,7 @@ print(carpeta.name)
 #nos devovlera que tipo de archivo con suffix
 print(carpeta.suffix)
 
-#nos devolvera el nombre sin la terminacion stem
+#nos devolvera el nombre sin la terminacion de archivo con stem
 print(carpeta.stem)
 
 #una forma de verificar si el archivo exite 
@@ -23,6 +23,6 @@ else:
     print('este archivo si existe')
 
 
-#nos entregara la ruta en fomrato windows
+#nos entregara la ruta en fomrato windowspn
 ruta_windows = PureWindowsPath(carpeta)
 print(ruta_windows)
