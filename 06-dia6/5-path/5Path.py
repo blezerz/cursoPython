@@ -2,7 +2,7 @@ from pathlib import Path
 
 #con el metodo home obtengo la base 
 base= Path.home()
-#se pueden ir agregando secciones para crear la ruta
+#se pueden ir agregando secciones para crear la ruta relativa
 guia = Path('Barcelona','Sagrada_familia')
 print(base)
 print(guia)
@@ -37,7 +37,7 @@ for txt in Path(guia).glob('**/*.txt'):
 
 
 
-#para recuperar una parte de una ruta podemos ocupara 
+#para recuperar una parte de una ruta podemos ocupara .relative y le 
 guia=Path("Europa","Espania","Barcelona","Sagrada_Familia.txt")
 en_europa = guia.relative_to(Path("Europa"))
 en_espania = guia.relative_to(Path("Europa","Espania"))
